@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice of JS</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <p class="welcome" >Welcome to JLC!!!</p>
+
+    <p class="training" onclick="show1()" >JS Training</p>
+    <p class="training" ondblclick="show2()" > Angular Js</p>
+    <p class="training" onmouseover="show3()", onmouseout="show4()" >React JS</p>
+      
+    <script>
+        window.alert("Hello Guys ,How are you?")
+
+        function show1(){
+            window.alert("Click on JS Training")
+            window.console.log("Click on JS Training")
+        }
+        function show2(){
+           alert("ondblclick on Angular JS")
+            console.log(" ondblclick on Angular JS")
+        }
+        function show3(){
+            console.log("onmouseover on React JS")
+        }
+        function show4(){
+            console.log("onmouseout on React JS")
+        }
+    </script>
+</body>
+</html>
